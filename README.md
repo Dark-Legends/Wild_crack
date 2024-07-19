@@ -1,5 +1,4 @@
 
-new_readme_content = """
 <h1 align="center">WILD CRACK</h1>
 
 <p align="center">
