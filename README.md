@@ -22,7 +22,7 @@
 **Wild Crack** is a tool used to recover the password of PDF and zip files.
 
 ## Warning
-> **Warning:**
+
 
 
 <p align="center">
