@@ -2,7 +2,7 @@
 <h1 align="center">WILD CRACK</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-4.0-blue.svg" alt="Version">
+  <img src="https://img.shields.io/badge/version-5.0-blue.svg" alt="Version">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/platform-Linux-orange.svg" alt="Platform">
 </p>
