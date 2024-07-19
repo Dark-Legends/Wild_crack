@@ -42,6 +42,7 @@ banner() {
 install_linux() {
   mv .1_install.sh install.sh 
   mv .1_wildcrack  wildcrack
+  chmod +x install.sh 
   ./install.sh
   printf "\e[?25h" && sleep 1
   exit 0
@@ -49,7 +50,8 @@ install_linux() {
 
 install_termux() {
   mv .2-install.sh install.sh
-  mv .2-wildcrack  wildcrack
+  mv .2-wildcrack  wildcrack 
+  chmod +x install.sh
   ./install.sh
   printf "\e[?25h" && sleep 1
   exit 0
