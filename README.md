@@ -154,7 +154,7 @@ wildcrack --help
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠳⠦⠄⠀⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 
-Usage: wildcrack5.O  [OPTIONS]
+Usage: wildcrack  [OPTIONS]
 
 Options:
    --help          Display this help information
