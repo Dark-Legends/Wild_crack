@@ -58,7 +58,6 @@ install_termux() {
 }
 
 main() {
-  # Function to display the menu
   display_menu() {
       printf "\e[?25l"
       clear
@@ -74,7 +73,7 @@ main() {
       done
   }
 
-  # Function to handle the selected option
+  
   handle_selection() {
       case $current_selection in
           0)
@@ -104,7 +103,7 @@ main() {
       esac
   }
 
-  # Initial menu options
+  
   menu_options=(
       "	[   Install On Linux    ]"
       "	[   Install On Termux   ]"
@@ -112,13 +111,13 @@ main() {
       "	[   Exit         	]"
   )
 
-  # Initial cursor position
+  
   current_selection=0
 
-  # Display the initial menu
+  
   display_menu
 
-  # Read user input
+  
   while true; do
       read -rsn1 input
       case $input in
@@ -136,7 +135,7 @@ main() {
                   fi
               fi
               ;;
-          "")  # if the input is Enter
+          "")  
               handle_selection
               # Re-display the menu after handling the selection
               display_menu
